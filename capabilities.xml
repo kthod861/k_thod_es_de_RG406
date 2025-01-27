@@ -149,28 +149,12 @@
 	Variants
 	///
 	-->
-	<variant name="gamelist-grid-small">
-		<label>[Modern] Grid View (Small)</label>
-		<selectable>true</selectable>
-	</variant>
-	<variant name="gamelist-grid-large">
-		<label>[Modern] Grid View (Large)</label>
-		<selectable>true</selectable>
-	</variant>
 	<variant name="gamelist-grid-small-classic">
 		<label>[Classic] Grid View (Small)</label>
 		<selectable>true</selectable>
 	</variant>
 	<variant name="gamelist-grid-large-classic">
 		<label>[Classic] Grid View (Large)</label>
-		<selectable>true</selectable>
-	</variant>
-	<variant name="gamelist-grid-small-video">
-		<label>[Video] Grid View (Small)</label>
-		<selectable>true</selectable>
-	</variant>
-	<variant name="gamelist-grid-large-video">
-		<label>[Video] Grid View (Large)</label>
 		<selectable>true</selectable>
 	</variant>
 

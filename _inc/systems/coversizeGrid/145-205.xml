@@ -1,5 +1,5 @@
 <theme>
-   <variant name="gamelist-grid-large,gamelist-grid-large-classic">
+   <variant name="gamelist-grid-large-classic">
 	  <aspectRatio name="4:3">
          <view name="gamelist">
             <grid name="game-grid">
@@ -10,7 +10,7 @@
       </aspectRatio>
    </variant>
    
-   <variant name="gamelist-grid-small,gamelist-grid-small-classic">
+   <variant name="gamelist-grid-small-classic">
 	  <aspectRatio name="4:3">
          <view name="gamelist">
             <grid name="game-grid">

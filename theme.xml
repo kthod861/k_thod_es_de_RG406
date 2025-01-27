@@ -20,11 +20,7 @@ license:      	creative commons CC-BY-NC-SA
 		<fontHelper>./_inc/fonts/RobotoCondensed-Regular.ttf</fontHelper>
 	</variables>
 	
-	<variant name="gamelist-grid-small,gamelist-grid-large">
-		<variables>
-			<artworkFolder>artwork (modern)</artworkFolder>
-		</variables>
-	</variant>
+
 	<variant name="gamelist-grid-small-classic,gamelist-grid-large-classic">
 		<variables>
 			<artworkFolder>artwork (classic)</artworkFolder>
@@ -110,7 +106,7 @@ license:      	creative commons CC-BY-NC-SA
 		</text>
 	</view>
 
-	<variant name="gamelist-grid-small,gamelist-grid-large,gamelist-grid-small-classic,gamelist-grid-large-classic">
+	<variant name="gamelist-grid-small-classic,gamelist-grid-large-classic">
 		<view name="system">
 			<image name="cover_list">
 				<origin>0 0</origin>
@@ -136,7 +132,7 @@ license:      	creative commons CC-BY-NC-SA
 	Gamelist View: Grid
 	///
 	-->
-	<variant name="gamelist-grid-small,gamelist-grid-large,gamelist-grid-small-classic,gamelist-grid-large-classic">
+	<variant name="gamelist-grid-small-classic,gamelist-grid-large-classic">
 		<view name="gamelist">
 			<image name="custom_bg_fg">
 				<origin>0 0</origin>
@@ -187,7 +183,7 @@ license:      	creative commons CC-BY-NC-SA
 		</view>
 	</variant>
 	
-	<variant name="gamelist-grid-small,gamelist-grid-large,gamelist-grid-small-classic,gamelist-grid-large-classic">
+	<variant name="gamelist-grid-small-classic,gamelist-grid-large-classic">
 		<include>./_inc/systems/coversizeGrid/${systemCoverSize}.xml</include>
 		<view name="gamelist">
 			<grid name="game-grid">
@@ -196,7 +192,7 @@ license:      	creative commons CC-BY-NC-SA
 		</view>
 	</variant>
 	
-	<variant name="gamelist-grid-small,gamelist-grid-large, gamelist-grid-small-classic,gamelist-grid-large-classic">
+	<variant name="gamelist-grid-small-classic,gamelist-grid-large-classic">
 		<view name="gamelist">
 			<image name="cover_list">
 				<default>./_inc/systems/${artworkFolder}/_default.webp</default>
