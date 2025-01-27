@@ -81,7 +81,7 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>0.5 0.54</pos>
 			<size>1 0.55</size>
 			<itemScale>1.5</itemScale>
-			<staticImage>./_inc/systems/logos/${system.theme}.webp</staticImage>
+			<staticImage>./_inc/systems/logos/${system.theme}.png</staticImage>
 			<type>horizontal</type>
 			<color>${bgColor}00</color>
 			<selectedItemMargins>0.08 0.08</selectedItemMargins>
@@ -207,7 +207,7 @@ license:      	creative commons CC-BY-NC-SA
 				<pos>0 0</pos>
 				<cropSize>1 0.5</cropSize>
 				<cropPos>0.5 ${modernCropPos}</cropPos>
-				<path>./theme-customizations/${artworkFolder}/${system.theme}.webp</path>
+				<path>./theme-customizations/${artworkFolder}/${system.theme}.jpg</path>
 				<zIndex>1</zIndex>
 			</image>
 		</view>
@@ -365,7 +365,7 @@ license:      	creative commons CC-BY-NC-SA
 				<pos>0 0</pos>
 				<cropSize>1 0.5</cropSize>
 				<cropPos>0.5 ${modernCropPos}</cropPos>
-				<path>./theme-customizations/${artworkFolder}/${system.theme}.webp</path>
+				<path>./theme-customizations/${artworkFolder}/${system.theme}.jpg</path>
 				<zIndex>1</zIndex>
 			</image>
 		</view>
@@ -549,7 +549,7 @@ license:      	creative commons CC-BY-NC-SA
 				<pos>0 0</pos>
 				<cropSize>1 0.5</cropSize>
 				<cropPos>0.5 ${modernCropPos}</cropPos>
-				<path>./theme-customizations/${artworkFolder}/${system.theme}.webp</path>
+				<path>./theme-customizations/${artworkFolder}/${system.theme}.jpg</path>
 				<zIndex>1</zIndex>
 			</image>
 		</view>
