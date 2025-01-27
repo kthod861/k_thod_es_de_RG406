@@ -4,9 +4,9 @@
 <theme>
 	<view name="system">
 		<carousel name="systemcarousel">
-			<itemSize>0.2813 0.25</itemSize>
+			<itemSize>0.2813 0.15</itemSize>
 			<maxItemCount>3.2</maxItemCount>
-			<horizontalOffset>-0.245</horizontalOffset>
+			<horizontalOffset>0.0</horizontalOffset>
 		</carousel>
 	</view>
 

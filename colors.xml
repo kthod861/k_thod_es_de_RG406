@@ -175,7 +175,7 @@
 	<colorScheme name="snes-light">
         <variables>
 			<mainColor>8B4ACC</mainColor>
-			<onMainColor>FFFFFF</onMainColor>
+			<onMainColor>E5E5E5</onMainColor>
 			<bgColor>E8DEC9</bgColor>
 			<sectColor>7332B3</sectColor>
 		</variables>
@@ -191,7 +191,7 @@
 	<colorScheme name="gameboy-light">
         <variables>
 			<mainColor>BD283A</mainColor>
-			<onMainColor>FFFFFF</onMainColor>
+			<onMainColor>E5E5E5</onMainColor>
 			<bgColor>C8CCD0</bgColor>
 			<sectColor>1B5412</sectColor>
 		</variables>
@@ -207,7 +207,7 @@
 	<colorScheme name="pikachu-light">
         <variables>
 			<mainColor>1A4DB2</mainColor>
-			<onMainColor>FFFFFF</onMainColor>
+			<onMainColor>E5E5E5</onMainColor>
 			<bgColor>FBD051</bgColor>
 			<sectColor>BD283A</sectColor>
 		</variables>
@@ -215,7 +215,7 @@
 	<colorScheme name="redfruits-dark">
         <variables>
 			<mainColor>CC3D49</mainColor>
-			<onMainColor>FFFFFF</onMainColor>
+			<onMainColor>E5E5E5</onMainColor>
 			<bgColor>16191D</bgColor>
 			<sectColor>D3A1F7</sectColor>
 		</variables>
@@ -223,14 +223,14 @@
 	<colorScheme name="redfruits-light">
         <variables>
 			<mainColor>CC3D49</mainColor>
-			<onMainColor>FFFFFF</onMainColor>
+			<onMainColor>E5E5E5</onMainColor>
 			<bgColor>EBF5FF</bgColor>
 			<sectColor>7239B3</sectColor>
 		</variables>
     </colorScheme>
 	<colorScheme name="strawberry-dark,orange-dark,banana-dark,lime-dark,mint-dark,blueberry-dark,grape-dark,bubblegum-dark,cocoa-dark,slate-dark,snes-dark,gameboy-dark,pikachu-dark,redfruits-dark">
         <variables>
-			<fgColor>FFFFFF</fgColor>
+			<fgColor>E5E5E5</fgColor>
 			<bgOpacity>0.3</bgOpacity>
 		</variables>
     </colorScheme>
