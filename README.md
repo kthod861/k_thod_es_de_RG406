@@ -1,7 +1,8 @@
 # elementerial-es-de_RG406
-A personnal modification of [RobZombie elementarial theme](https://github.com/RobZombie9043/elementerial-es-de).
+A personnal modification of [RobZombie elementarial theme](https://github.com/RobZombie9043/elementerial-es-de) for mrg406V .
+
 Used a lot of asset from:
-[FabriceCaruso_es-theme-carbon]https://github.com/fabricecaruso/es-theme-carbon)
+[FabriceCaruso_es-theme-carbon](https://github.com/fabricecaruso/es-theme-carbon)
 and
 [SymBuzzer_es-theme-knully](https://github.com/symbuzzer/es-theme-knulli)
 
