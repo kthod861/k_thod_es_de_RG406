@@ -10,12 +10,4 @@
 		</carousel>
 	</view>
 
-	<variant name="gamelist-textlist-basic-video">
-		<view name="gamelist">
-			<image name="cover_list">
-				<pos>0 -0.075</pos>
-			</image>
-		</view>
-	</variant>
-
 </theme>
