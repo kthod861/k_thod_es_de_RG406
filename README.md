@@ -1,4 +1,4 @@
-# elementerial-es-de_RG406
+# Elementerial_Classic_RG406
 A personnal modification of [RobZombie elementarial theme](https://github.com/RobZombie9043/elementerial-es-de) for mrg406V .
 
 Used a lot of asset from:
