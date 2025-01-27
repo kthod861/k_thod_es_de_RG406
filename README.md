@@ -1,5 +1,5 @@
 # Elementerial_Classic_RG406
-A personnal modification of [RobZombie elementarial theme](https://github.com/RobZombie9043/elementerial-es-de) for mrg406V .
+A personnal modification of [RobZombie elementarial theme](https://github.com/RobZombie9043/elementerial-es-de) for RG406V .
 
 Used a lot of asset from:
 [FabriceCaruso_es-theme-carbon](https://github.com/fabricecaruso/es-theme-carbon)
