@@ -14,7 +14,7 @@
       <systemColorPalette2>FFFFFF</systemColorPalette2>
       <systemColorPalette3>666666</systemColorPalette3>
       <systemColorPalette4>212121</systemColorPalette4>
-	  <classicCropPos>0.15</classicCropPos>
+	  <classicCropPos>0.5</classicCropPos>
 	  <modernCropPos>0.15</modernCropPos>
    </variables>
 </theme>
