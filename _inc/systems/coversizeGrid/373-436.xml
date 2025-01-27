@@ -3,19 +3,19 @@
 	  <aspectRatio name="4:3">
          <view name="gamelist">
             <grid name="game-grid">
-               <itemSize>0.4166 0.3320</itemSize>
-               <itemSpacing>0.1 0.0609</itemSpacing>
+               <itemSize>0.2130 0.3320</itemSize>
+               <itemSpacing>0.027 0.0609</itemSpacing>
             </grid>
          </view>
       </aspectRatio>
    </variant>
    
-	<variant name="gamelist-grid-small,gamelist-grid-small-classic">
+   <variant name="gamelist-grid-small,gamelist-grid-small-classic">
 	  <aspectRatio name="4:3">
          <view name="gamelist">
             <grid name="game-grid">
-               <itemSize>0.2213 0.2213</itemSize>
-               <itemSpacing>0.016 0.0305</itemSpacing>
+               <itemSize>0.1419 0.2213</itemSize>
+               <itemSpacing>0.0162 0.0305</itemSpacing>
             </grid>
          </view>
       </aspectRatio>
