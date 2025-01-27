@@ -6,9 +6,13 @@ Used a lot of asset from:
 and
 [SymBuzzer_es-theme-knully](https://github.com/symbuzzer/es-theme-knulli)
 
+Thanks to them !
+
+
+
 Removed most of the non grid / non 4:3 / non classic part of it
 
-Used ( dirty the customisation part of the original theme)
+Used (dirty) the customisation part of the original theme.
 
 ## **Acknowledgements**
 - Based on original [Elementerial](https://github.com/mluizvitor/es-theme-elementerial) theme by [mluizvitor](https://github.com/mluizvitor/es-theme-elementerial/commits?author=mluizvitor)
