@@ -1,29 +1,12 @@
 <themeCapabilities>
    
 	<themeName>Elementerial_Classic_RG406</themeName>
-   
-	<!--
-	///
-	Language
-	///
-	<language>en_US</language>
-    <language>en_GB</language>
-    <language>es_ES</language>
-    <language>fr_FR</language>
-    <language>it_IT</language>
-    <language>pt_BR</language>
-    <language>ro_RO</language>
-    <language>sv_SE</language>
-	-->
-	
 	<!--
 	///
 	Aspect Ratios
 	///
 	-->
-
 	<aspectRatio>4:3</aspectRatio>
-	
 	<!--
 	///
 	Font Size
@@ -32,97 +15,6 @@
 	<fontSize>small</fontSize>
 	<fontSize>medium</fontSize>
 	<fontSize>large</fontSize>
-	
-	<!--
-	///
-	Color Schemes
-	///
-	-->
-	<colorScheme name="strawberry-dark">
-        <label>Dark - Strawberry</label>
-    </colorScheme>
-	<colorScheme name="orange-dark">
-        <label>Dark - Orange</label>
-    </colorScheme>
-	<colorScheme name="banana-dark">
-        <label>Dark - Banana</label>
-    </colorScheme>
-	<colorScheme name="lime-dark">
-        <label>Dark - Lime</label>
-    </colorScheme>
-	<colorScheme name="mint-dark">
-        <label>Dark - Mint</label>
-    </colorScheme>
-	<colorScheme name="blueberry-dark">
-        <label>Dark - Blueberry</label>
-    </colorScheme>
-	<colorScheme name="grape-dark">
-        <label>Dark - Grape</label>
-    </colorScheme>
-	<colorScheme name="bubblegum-dark">
-        <label>Dark - Bubblegum</label>
-    </colorScheme>
-	<colorScheme name="cocoa-dark">
-        <label>Dark - Cocoa</label>
-    </colorScheme>
-	<colorScheme name="slate-dark">
-        <label>Dark - Slate</label>
-    </colorScheme>
-	<colorScheme name="snes-dark">
-		<label>Dark - SNES</label>
-    </colorScheme>
-	<colorScheme name="gameboy-dark">
-		<label>Dark - Gameboy</label>
-    </colorScheme>
-	<colorScheme name="pikachu-dark">
-		<label>Dark - Pikachu Edition</label>
-    </colorScheme>
-	<colorScheme name="redfruits-dark">
-		<label>Dark - Red Fruits</label>
-    </colorScheme>
-	
-	<colorScheme name="strawberry-light">
-        <label>Light - Strawberry</label>
-    </colorScheme>
-	<colorScheme name="orange-light">
-        <label>Light - Orange</label>
-    </colorScheme>
-	<colorScheme name="banana-light">
-        <label>Light - Banana</label>
-    </colorScheme>
-	<colorScheme name="lime-light">
-        <label>Light - Lime</label>
-    </colorScheme>
-	<colorScheme name="mint-light">
-        <label>Light - Mint</label>
-    </colorScheme>
-	<colorScheme name="blueberry-light">
-        <label>Light - Blueberry</label>
-    </colorScheme>
-	<colorScheme name="grape-light">
-        <label>Light - Grape</label>
-    </colorScheme>
-	<colorScheme name="bubblegum-light">
-        <label>Light - Bubblegum</label>
-    </colorScheme>
-	<colorScheme name="cocoa-light">
-        <label>Light - Cocoa</label>
-    </colorScheme>
-	<colorScheme name="slate-light">
-        <label>Light - Slate</label>
-    </colorScheme>
-	<colorScheme name="snes-light">
-		<label>Light - SNES</label>
-    </colorScheme>
-	<colorScheme name="gameboy-light">
-		<label>Light - Gameboy</label>
-    </colorScheme>
-	<colorScheme name="pikachu-light">
-		<label>Light - Pikachu Edition</label>
-    </colorScheme>
-	<colorScheme name="redfruits-light">
-		<label>Light - Red Fruits</label>
-    </colorScheme>
 	<!--
 	///
 	Transitions
@@ -144,8 +36,7 @@
 		<entry>builtin-slide</entry>
 		<entry>builtin-fade</entry>
 	</suppressTransitionProfiles>
-    
-	<!--
+  	<!--
 	///
 	Variants
 	///

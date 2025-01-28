@@ -1,29 +1,32 @@
 <!--
 theme name: 	Elementerial_MOD
-designed by:   	Rob Zombie_MOD_Kthod
+designed by:   	Rob Zombie
+modified by:	Kthod
 license:      	creative commons CC-BY-NC-SA
 -->
 
 <theme>
-
 	<include>./_inc/systems/metadata-global/_default.xml</include>
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
 	<include>./_inc/systems/metadata-custom/${system.theme}.xml</include>
-	<include>./theme-customizations/metadata-custom/${system.theme}.xml</include>
-	<include>./colors.xml</include>
-
 	<variables>
 		<spacerImage>./_inc/images/space.png</spacerImage>
 		<fontRegular>./_inc/fonts/Inter-Regular.otf</fontRegular>
 		<fontBold>./_inc/fonts/Inter-Bold.otf</fontBold>
 		<fontLight>./_inc/fonts/Inter-Light.otf</fontLight>
 		<fontHelper>./_inc/fonts/RobotoCondensed-Regular.ttf</fontHelper>
+		<mainColor>ED5353</mainColor>
+		<onMainColor>FFEBEB</onMainColor>
+		<bgColor>000000</bgColor>
+		<sectColor>ff8c82</sectColor>
+		<fgColor>dcdcdc</fgColor>
+		<bgOpacity>0.3</bgOpacity>
 	</variables>
 	
 
 	<variant name="gamelist-grid-small-classic,gamelist-grid-large-classic">
 		<variables>
-			<artworkFolder>artwork (classic)</artworkFolder>
+			<artworkFolder>artwork</artworkFolder>
 		</variables>
 	</variant>
 	
@@ -84,6 +87,8 @@ license:      	creative commons CC-BY-NC-SA
 			<fastScrolling>true</fastScrolling>
 			<unfocusedItemDimming>0.5</unfocusedItemDimming>
 			<reflections>true</reflections>
+			<reflectionsOpacity >0.3</reflectionsOpacity >
+			<textColor>${fgColor}</textColor>
 			<zIndex>4</zIndex>
 		</carousel>
         <text name="autoCollectionName">
@@ -144,17 +149,9 @@ license:      	creative commons CC-BY-NC-SA
 				<origin>0 0</origin>
 				<pos>0 0</pos>
 				<cropSize>1 0.5</cropSize>
+				<default>./_inc/systems/${artworkFolder}/_default.jpg</default>
 				<cropPos>0.5 ${modernCropPos}</cropPos>
-				<default>./_inc/systems/${artworkFolder}/_default.webp</default>
-				<path>./_inc/systems/${artworkFolder}/${system.theme}.webp</path>
-				<zIndex>1</zIndex>
-			</image>
-			<image name="cover_list_custom">
-				<origin>0 0</origin>
-				<pos>0 0</pos>
-				<cropSize>1 0.5</cropSize>
-				<cropPos>0.5 ${modernCropPos}</cropPos>
-				<path>./theme-customizations/${artworkFolder}/${system.theme}.jpg</path>
+				<path>./_inc/systems/${artworkFolder}/${system.theme}.jpg</path>
 				<zIndex>1</zIndex>
 			</image>
 		</view>
@@ -228,27 +225,27 @@ license:      	creative commons CC-BY-NC-SA
 	<variant name="gamelist-grid-small-classic,gamelist-grid-large-classic">
 		<view name="gamelist">
 			<image name="cover_list">
-				<default>./_inc/systems/${artworkFolder}/_default.webp</default>
-				<path>./_inc/systems/${artworkFolder}/${system.theme}.webp</path>
+				<default>./_inc/systems/${artworkFolder}/_default.jpg</default>
+				<path>./_inc/systems/${artworkFolder}/${system.theme}.jpg</path>
 				<cropSize>1 0.5</cropSize>
 				<cropPos>0.5 ${modernCropPos}</cropPos>
-			</image>
-			<image name="cover_list_custom">
-				<origin>0 0</origin>
-				<pos>0 0</pos>
-				<cropSize>1 0.5</cropSize>
-				<cropPos>0.5 ${modernCropPos}</cropPos>
-				<path>./theme-customizations/${artworkFolder}/${system.theme}.jpg</path>
-				<zIndex>1</zIndex>
 			</image>
 		</view>
 	</variant>
-	
 	<!--
 	///
 	Font Size
 	///
 	-->
+	<fontSize name="small">
+		<variables>
+			<fontSizeH1>0.05625</fontSizeH1> 
+			<fontSizeH2>0.04375</fontSizeH2> 
+			<fontSizeH3>0.0375</fontSizeH3> 
+			<fontSizeBody>0.03</fontSizeBody> 
+			<fontSizeCaption>0.028125</fontSizeCaption> 
+		</variables>
+	</fontSize>
 	<fontSize name="medium">
 		<variables>
 			<fontSizeH1>0.0625</fontSizeH1> 
@@ -267,16 +264,6 @@ license:      	creative commons CC-BY-NC-SA
 			<fontSizeCaption>0.03125</fontSizeCaption> 
 		</variables>
 	</fontSize>
-	<fontSize name="small">
-		<variables>
-			<fontSizeH1>0.05625</fontSizeH1> 
-			<fontSizeH2>0.04375</fontSizeH2> 
-			<fontSizeH3>0.0375</fontSizeH3> 
-			<fontSizeBody>0.03</fontSizeBody> 
-			<fontSizeCaption>0.028125</fontSizeCaption> 
-		</variables>
-	</fontSize>
-		
 	<!--
 	///
 	Aspect Ratios

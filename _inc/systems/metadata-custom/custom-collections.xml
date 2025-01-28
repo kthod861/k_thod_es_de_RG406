@@ -1,6 +1,5 @@
 <theme>
    <variables>
-	  <classicCropPos>0.4</classicCropPos>
 	  <modernCropPos>0.3</modernCropPos>
    </variables>
 </theme>
