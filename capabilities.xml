@@ -130,20 +130,21 @@
 	-->
 	<transitions name="transitions">
 		<label>transitions</label>
-		<selectable>false</selectable>
-		<systemToSystem>instant</systemToSystem>
-		<systemToGamelist>instant</systemToGamelist>
-		<gamelistToGamelist>instant</gamelistToGamelist>
-		<gamelistToSystem>instant</gamelistToSystem>
-		<startupToSystem>fade</startupToSystem>
-		<startupToGamelist>fade</startupToGamelist>
+		<selectable>true</selectable>
+		<systemToSystem>slide</systemToSystem>
+		<systemToGamelist>fade</systemToGamelist>
+		<gamelistToGamelist>slide</gamelistToGamelist>
+		<gamelistToSystem>slide</gamelistToSystem>
+		<startupToSystem>slide</startupToSystem>
+		<startupToGamelist>slide</startupToGamelist>
 	</transitions>
+	
 	<suppressTransitionProfiles>
 		<entry>builtin-instant</entry>
 		<entry>builtin-slide</entry>
 		<entry>builtin-fade</entry>
 	</suppressTransitionProfiles>
-   
+    
 	<!--
 	///
 	Variants

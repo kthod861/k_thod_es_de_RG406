@@ -203,10 +203,11 @@ license:      	creative commons CC-BY-NC-SA
 				<origin>0.5 0</origin> 
 				<pos>0.5 0.2</pos>	
 				<size>0.933333 0.725</size>
-				<itemScale>1.1</itemScale>
+				<itemScale>1.3</itemScale>
 				<imageCornerRadius>0.01</imageCornerRadius> 
 				<scaleInwards>true</scaleInwards>
-				<unfocusedItemDimming>0.7</unfocusedItemDimming>
+				<unfocusedItemDimming>0.5</unfocusedItemDimming>
+				<unfocusedItemSaturation >0.5</unfocusedItemSaturation >
 				<fontSize>${fontSizeCaption}</fontSize>
 				<textColor>${fgColor}</textColor>
 				<textRelativeScale>1</textRelativeScale>
