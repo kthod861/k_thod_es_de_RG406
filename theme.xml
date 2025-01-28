@@ -8,8 +8,6 @@ license:      	creative commons CC-BY-NC-SA
 <theme>
 	
 	<include>./_inc/systems/metadata-global/_default.xml</include>
-	<!--<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
-	<include>./_inc/systems/metadata-custom/${system.theme}.xml</include>-->
 	
 	<variables>
 		<spacerImage>./_inc/images/space.png</spacerImage>
@@ -85,7 +83,7 @@ license:      	creative commons CC-BY-NC-SA
 			<staticImage>./_inc/systems/logos/${system.theme}.png</staticImage>
 			<type>horizontal</type>
 			<color>${bgColor}00</color>
-			<selectedItemMargins>0.08 0.08</selectedItemMargins>
+			<selectedItemMargins>0.1 0.1</selectedItemMargins>
 			<fastScrolling>true</fastScrolling>
 			<unfocusedItemDimming>0.5</unfocusedItemDimming>
 			<reflections>true</reflections>
@@ -155,9 +153,7 @@ license:      	creative commons CC-BY-NC-SA
 				<origin>0 0</origin>
 				<pos>0 0</pos>
 				<size>1 1</size>
-				<!--<cropSize>1 1</cropSize>-->
 				<default>./_inc/systems/${artworkFolder}/_default.jpg</default>
-				<!-- <cropPos>0.5 ${modernCropPos}</cropPos>  -->
 				<path>./_inc/systems/${artworkFolder}/${system.theme}.jpg</path>
 				<zIndex>1</zIndex>
 			</image>
@@ -170,14 +166,14 @@ license:      	creative commons CC-BY-NC-SA
 	-->
 	<variant name="gamelist-grid-small-classic,gamelist-grid-large-classic">
 		<view name="gamelist">
-			<image name="custom_bg_fg">
+			<!--<image name="custom_bg_fg">
 				<origin>0 0</origin>
 				<pos>0 0</pos>
 				<size>1 1</size>
 				<path>./_inc/images/carousel-background.png</path>
 				<color>${bgColor}</color>
 				<zIndex>2</zIndex>
-			</image>
+			</image>-->
 			<image name="cover_list">
 				<origin>0 0</origin>
 				<pos>0 0</pos>
@@ -228,15 +224,19 @@ license:      	creative commons CC-BY-NC-SA
 			</grid>
 		</view>
 	</variant>
-	
+	<!--
+	///
+	Gamelist View: Background
+	///
+	-->
 	<variant name="gamelist-grid-small-classic,gamelist-grid-large-classic">
 		<view name="gamelist">
 			<image name="cover_list">
 				<default>./_inc/systems/${artworkFolder}/_default.jpg</default>
 				<path>./_inc/systems/${artworkFolder}/${system.theme}.jpg</path>
-				<size>1 1</size>
-				<!--<cropSize>1 0.5</cropSize>
-				<cropPos>0.5 ${modernCropPos}</cropPos>-->
+				<size>1.5 1.5</size>
+				<pos>-0.25 0</pos>
+				<opacity>0.3</opacity>
 			</image>
 		</view>
 	</variant>
