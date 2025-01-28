@@ -209,6 +209,19 @@ license:      	creative commons CC-BY-NC-SA
 	</variant>
 	<!--
 	///
+	Gamelist View: CoverGrid
+	///
+	-->
+	<variant name="gamelist-grid-small-classic,gamelist-grid-large-classic">
+		<include>./_inc/systems/coversizeGrid/${systemCoverSize}.xml</include>
+		<view name="gamelist">
+			<grid name="game-grid">
+				<imageType>cover</imageType>
+			</grid>
+		</view>
+	</variant>
+	<!--
+	///
 	Gamelist View: Background
 	///
 	-->
