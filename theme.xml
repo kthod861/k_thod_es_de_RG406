@@ -166,14 +166,6 @@ license:      	creative commons CC-BY-NC-SA
 	-->
 	<variant name="gamelist-grid-small-classic,gamelist-grid-large-classic">
 		<view name="gamelist">
-			<!--<image name="custom_bg_fg">
-				<origin>0 0</origin>
-				<pos>0 0</pos>
-				<size>1 1</size>
-				<path>./_inc/images/carousel-background.png</path>
-				<color>${bgColor}</color>
-				<zIndex>2</zIndex>
-			</image>-->
 			<image name="cover_list">
 				<origin>0 0</origin>
 				<pos>0 0</pos>
@@ -212,15 +204,6 @@ license:      	creative commons CC-BY-NC-SA
 				<textColor>${fgColor}</textColor>
 				<textRelativeScale>1</textRelativeScale>
 				<textBackgroundColor>${fgColor}0D</textBackgroundColor>
-			</grid>
-		</view>
-	</variant>
-	
-	<variant name="gamelist-grid-small-classic,gamelist-grid-large-classic">
-		<include>./_inc/systems/coversizeGrid/${systemCoverSize}.xml</include>
-		<view name="gamelist">
-			<grid name="game-grid">
-				<imageType>cover</imageType>
 			</grid>
 		</view>
 	</variant>
