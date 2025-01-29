@@ -5,7 +5,7 @@ Highly reduced the amount of options to just my needs ( grid only, one size ).
 
 A great way to learn how ED-DE themes works.
 
-Almost all images have been tweaks
+Almost all systems images have been tweaked.
 
 Systems:
 ![sample1](https://github.com/kthod861/Elementerial_Mod_RG406/blob/main/_inc/Systems_screen.jpg)
