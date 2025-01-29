@@ -1,21 +1,11 @@
 <theme>
-   <variant name="gamelist-grid-large-classic">
-	  <aspectRatio name="4:3">
-         <view name="gamelist">
-            <grid name="game-grid">
-               <itemSize>0.2794 0.3320</itemSize>
-               <itemSpacing>0.0474 0.0609</itemSpacing>
-            </grid>
-         </view>
-      </aspectRatio>
-   </variant>
-   
+
    <variant name="gamelist-grid-small-classic">
 	  <aspectRatio name="4:3">
          <view name="gamelist">
             <grid name="game-grid">
-               <itemSize>0.1746 0.2213</itemSize>
-               <itemSpacing>0.015 0.0305</itemSpacing>
+               <itemSize>0.18 0.235</itemSize>
+               <itemSpacing>0.0705 0.01</itemSpacing>
             </grid>
          </view>
       </aspectRatio>
