@@ -21,4 +21,4 @@ Most assets come from:
 and
 [SymBuzzer_es-theme-knully](https://github.com/symbuzzer/es-theme-knulli)
 
-Thanks to them and the comuunity!
+Thanks to them and the comunity!
