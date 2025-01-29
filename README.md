@@ -5,7 +5,7 @@ Highly reduced the amount of options to just my needs ( grid only, one size ).
 
 A great way to learn how ED-DE themes works.
 
-Almost all systems images have been tweaked.
+Almost all systems arts have been tweaked.
 
 Should fit any 4:3 ratio with 960x720 resolution.
 
