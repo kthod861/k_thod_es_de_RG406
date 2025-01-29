@@ -1,7 +1,8 @@
 # Elementerial_Classic_RG406
 A personnal modification of [RobZombie elementarial theme](https://github.com/RobZombie9043/elementerial-es-de) for my Anbernic RG 406V .
 
-Highly reduced the amount of options to just my needs.
+Highly reduced the amount of options to just my needs ( grid only, one size ).
+
 A great way to learn how ED-DE themes works.
 
 Almost all images have been tweaks
