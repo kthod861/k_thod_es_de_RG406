@@ -13,15 +13,13 @@
 	///
 	-->
 	<fontSize>small</fontSize>
-	<fontSize>medium</fontSize>
-	<fontSize>large</fontSize>
 	<!--
 	///
 	Transitions
 	///
 	-->
 	<transitions name="transitions">
-		<label>transitions</label>
+		<label>Default</label>
 		<selectable>true</selectable>
 		<systemToSystem>slide</systemToSystem>
 		<systemToGamelist>slide</systemToGamelist>
