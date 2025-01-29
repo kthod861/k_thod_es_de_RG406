@@ -1,0 +1,12 @@
+<theme>
+	<variant name="gamelist-grid">
+	  <aspectRatio name="4:3">
+         <view name="gamelist">
+            <grid name="game-grid">
+               <itemSize>0.244 0.2213</itemSize>
+               <itemSpacing>0.116 0.0305</itemSpacing>
+            </grid>
+         </view>
+      </aspectRatio>
+   </variant>
+</theme>
