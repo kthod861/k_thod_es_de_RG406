@@ -6,6 +6,11 @@ A great way to learn how ED-DE themes works.
 
 Almost all images have been tweaks
 
+Systems
+![sample1](https://github.com/RickAndTired/adroit-es-de/assets/53553229/ad64ae99-8b46-44fb-a9df-e463a6cc755a)
+
+
+
 Most assets come from:
 [FabriceCaruso_es-theme-carbon](https://github.com/fabricecaruso/es-theme-carbon)
 and
