@@ -1,6 +1,6 @@
 <themeCapabilities>
    
-	<themeName>Elementerial_Classic_RG406</themeName>
+	<themeName>Elementerial_Mod_RG406</themeName>
 	<!--
 	///
 	Aspect Ratios
@@ -42,7 +42,7 @@
 	///
 	-->
 	
-	<variant name="gamelist-grid-small-classic">
+	<variant name="gamelist-grid">
 		<label>Default</label>
 		<selectable>true</selectable>
 	</variant>

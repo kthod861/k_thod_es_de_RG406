@@ -1,7 +1,7 @@
 <!--
 theme name: 	Elementerial_MOD
 designed by:   	Rob Zombie
-modified by:	Kthod
+Modified by:	Kthod
 license:      	creative commons CC-BY-NC-SA
 -->
 
@@ -24,7 +24,7 @@ license:      	creative commons CC-BY-NC-SA
 	</variables>
 	
 
-	<variant name="gamelist-grid-small-classic">
+	<variant name="gamelist-grid">
 		<variables>
 			<artworkFolder>artwork</artworkFolder>
 		</variables>
@@ -154,7 +154,7 @@ license:      	creative commons CC-BY-NC-SA
 	System View: Background
 	///
 	-->
-	<variant name="gamelist-grid-small-classic">
+	<variant name="gamelist-grid">
 		<view name="system">
 			<image name="cover_list">
 				<origin>0 0</origin>
@@ -171,7 +171,7 @@ license:      	creative commons CC-BY-NC-SA
 	Gamelist View: Grid
 	///
 	-->
-	<variant name="gamelist-grid-small-classic">
+	<variant name="gamelist-grid">
 		<view name="gamelist">
 			<image name="cover_list">
 				<origin>0 0</origin>
@@ -219,7 +219,7 @@ license:      	creative commons CC-BY-NC-SA
 	Gamelist View: CoverGrid
 	///
 	-->
-	<variant name="gamelist-grid-small-classic">
+	<variant name="gamelist-grid">
 		<include>./_inc/systems/coversizeGrid/${systemCoverSize}.xml</include>
 		<view name="gamelist">
 			<grid name="game-grid">
@@ -232,7 +232,7 @@ license:      	creative commons CC-BY-NC-SA
 	Gamelist View: Background
 	///
 	-->
-	<variant name="gamelist-grid-small-classic">
+	<variant name="gamelist-grid">
 		<view name="gamelist">
 			<image name="cover_list">
 				<default>./_inc/systems/${artworkFolder}/_default.jpg</default>
