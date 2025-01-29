@@ -14,8 +14,8 @@
 	  <aspectRatio name="4:3">
          <view name="gamelist">
             <grid name="game-grid">
-               <itemSize>0.1659 0.2213</itemSize>
-               <itemSpacing>0.0258 0.0305</itemSpacing>
+               <itemSize>0.18 0.235</itemSize>
+               <itemSpacing>0.0705 0.01</itemSpacing>
             </grid>
          </view>
       </aspectRatio>
