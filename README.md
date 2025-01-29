@@ -7,6 +7,8 @@ A great way to learn how ED-DE themes works.
 
 Almost all systems images have been tweaked.
 
+Should fit any 4:3 ratio with 960x720 resolution.
+
 Systems:
 ![sample1](https://github.com/kthod861/Elementerial_Mod_RG406/blob/main/_inc/Systems_screen.jpg)
 
