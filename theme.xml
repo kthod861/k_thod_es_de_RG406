@@ -60,7 +60,44 @@ license:      	creative commons CC-BY-NC-SA
 			<zIndex>2</zIndex>
 		</image>
 	</view>
-
+	<view name="system">
+		<image name="lineUpperLeft">
+			<pos>0.0 0.6</pos>
+			<size>0.2 0.002</size>
+			<origin>0 0</origin>
+			<path>./_inc/images/Left_Line.png</path>
+			<color>838383</color>
+			<zIndex>11</zIndex>
+			<stationary>withinView</stationary>
+		</image>
+		<image name="lineLowerLeft">
+			<pos>0.0 0.86</pos>
+			<size>0.15 0.002</size>
+			<origin>0 0</origin>
+			<path>./_inc/images/Left_Line.png</path>
+			<color>838383</color>
+			<zIndex>11</zIndex>
+			<stationary>withinView</stationary>
+		</image>
+		<image name="lineUpperRight">
+			<pos>1 0.6</pos>
+			<size>0.2 0.002</size>
+			<origin>1 0</origin>
+			<path>./_inc/images/Right_Line.png</path>
+			<color>838383</color>
+			<zIndex>11</zIndex>
+			<stationary>withinView</stationary>
+		</image>
+		<image name="lineLowerRight">
+			<pos>1 0.86</pos>
+			<size>0.15 0.002</size>
+			<origin>1 0</origin>
+			<path>./_inc/images/Right_Line.png</path>
+			<color>838383</color>
+			<zIndex>11</zIndex>
+			<stationary>withinView</stationary>
+		</image>
+	</view>
 	<!--
 	///
 	System View
@@ -107,40 +144,10 @@ license:      	creative commons CC-BY-NC-SA
 			<fontPath>${fontRegular}</fontPath>
 			<systemdata>gamecount</systemdata>
 			<letterCase>capitalize</letterCase>
-			<color>${fgColor}</color>
+			<color>ADADAD</color>
+			<stationary>withinView</stationary>
 		</text>
-		<image name="lineUpperLeft">
-			<pos>0.0 0.6</pos>
-			<size>0.2 0.002</size>
-			<origin>0 0</origin>
-			<path>./_inc/images/Left_Line.png</path>
-			<color>838383</color>
-			<zIndex>11</zIndex>
-		</image>
-		<image name="lineLowerLeft">
-			<pos>0.0 0.86</pos>
-			<size>0.15 0.002</size>
-			<origin>0 0</origin>
-			<path>./_inc/images/Left_Line.png</path>
-			<color>838383</color>
-			<zIndex>11</zIndex>
-		</image>
-		<image name="lineUpperRight">
-			<pos>1 0.6</pos>
-			<size>0.2 0.002</size>
-			<origin>1 0</origin>
-			<path>./_inc/images/Right_Line.png</path>
-			<color>838383</color>
-			<zIndex>11</zIndex>
-		</image>
-		<image name="lineLowerRight">
-			<pos>1 0.86</pos>
-			<size>0.15 0.002</size>
-			<origin>1 0</origin>
-			<path>./_inc/images/Right_Line.png</path>
-			<color>838383</color>
-			<zIndex>11</zIndex>
-		</image>
+
 	</view>
 	<!--
 	///
