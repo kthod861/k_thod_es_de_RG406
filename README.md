@@ -1,4 +1,4 @@
-# Elementerial Classic RG406
+# k_thod_es_de_RG406
 A personnal modification of [RobZombie elementarial theme](https://github.com/RobZombie9043/elementerial-es-de) for my Anbernic RG 406V .
 
 Highly reduced the amount of options to my needs (grid only, one size).
