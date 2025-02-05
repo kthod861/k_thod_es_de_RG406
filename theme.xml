@@ -9,6 +9,7 @@ license:      	creative commons CC-BY-NC-SA
 	
 	<include>./_inc/systems/metadata-global/_default.xml</include>
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+	
 	<variables>
 		<spacerImage>./_inc/images/space.png</spacerImage>
 		<fontRegular>./_inc/fonts/Inter-Regular.otf</fontRegular>
@@ -51,8 +52,13 @@ license:      	creative commons CC-BY-NC-SA
 			<iconColorDimmed>000000</iconColorDimmed>
 			<opacity>0</opacity>
 		</helpsystem>
-
 	</view>
+	
+	<!--
+	///
+	System View
+	///
+	-->
 	<view name="system">
 		<image name="Lines">
 			<pos>0 0</pos>
@@ -63,13 +69,7 @@ license:      	creative commons CC-BY-NC-SA
 			<zIndex>11</zIndex>
 			<stationary>withinView</stationary>
 		</image>
-	</view>
-	<!--
-	///
-	System View
-	///
-	-->
-	<view name="system">
+		
 		<carousel name="systemcarousel">
 			<origin>0.5 0</origin>
 			<pos>0.5 0.51</pos>
@@ -155,6 +155,7 @@ license:      	creative commons CC-BY-NC-SA
 				<size>0.25 0</size>
 				<maxSize >0.25 1</maxSize >
 				<path>./_inc/systems/logos/${system.theme}.png</path>
+				<interpolation>linear</interpolation>
 				<zIndex>10</zIndex>
 			</image>
 			
