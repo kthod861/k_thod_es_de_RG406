@@ -160,12 +160,13 @@ license:      	creative commons CC-BY-NC-SA
 
 
 			<image name="logo">
-				<pos>0.4 0.02</pos>
-				<origin>0 0</origin>
+				<pos>0.5 0.02</pos>
+				<origin>0.5 0</origin>
 				<size>0.25 0</size>
 				<maxSize >0.25 1</maxSize >
 				<path>./_inc/systems/logos/${system.theme}.png</path>
-				<interpolation>linear</interpolation>
+				<interpolation>nearest</interpolation>
+				<opacity>0.8</opacity>
 				<zIndex>10</zIndex>
 			</image>
 			
@@ -191,12 +192,9 @@ license:      	creative commons CC-BY-NC-SA
 				<itemScale>1.2</itemScale>
 				<imageCornerRadius>0.01</imageCornerRadius> 
 				<scaleInwards>true</scaleInwards>
-				<unfocusedItemDimming>0.8</unfocusedItemDimming>
+				<unfocusedItemDimming>0.6</unfocusedItemDimming>
 				<unfocusedItemSaturation >0.8</unfocusedItemSaturation >
-				<fontSize>${fontSizeCaption}</fontSize>
 				<textColor>${fgColor}</textColor>
-				<textRelativeScale>1</textRelativeScale>
-				<textBackgroundColor>${fgColor}0D</textBackgroundColor>
 			</grid>
 		</view>
 	</variant>
