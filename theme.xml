@@ -131,6 +131,15 @@ license:      	creative commons CC-BY-NC-SA
 	-->
 	<variant name="gamelist-grid">
 		<view name="gamelist">
+		
+			<badges name="badges">
+				<pos>0.01 0.078</pos>
+				<size>0.15 0.15</size>
+				<origin>0 0</origin>
+				<slots>favorite</slots>
+                <customBadgeIcon badge="favorite">./_inc/images/favorite.png</customBadgeIcon>
+			</badges>
+			
 			<image name="cover_list">
 				<origin>0 0</origin>
 				<pos>0 0</pos>
