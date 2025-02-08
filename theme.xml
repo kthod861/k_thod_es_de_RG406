@@ -132,6 +132,30 @@ license:      	creative commons CC-BY-NC-SA
 	<variant name="gamelist-grid">
 		<view name="gamelist">
 		
+			<datetime name="datetime">
+				<origin>0 0.5</origin> 
+				<pos>0.033333 0.055</pos>	
+				<size>0.35 ${fontSizeBody}</size>				
+				<fontSize>0.02</fontSize>
+				<fontPath>${fontRegular}</fontPath>
+				<stationary>withinView</stationary>
+				<opacity>1</opacity>
+				<metadata>releasedate</metadata>
+				<color>${fgColor}</color>
+				<backgroundColor>000000FF</backgroundColor>
+				<defaultValue>...</defaultValue>
+				<format>%Y</format>
+				<zIndex>1</zIndex>
+			</datetime>
+			<rating name="rating">
+				<pos>0.075 0.045</pos>
+				<size>0.02 0.02</size>
+				<origin>0 0</origin>
+				<stationary>withinView</stationary>
+				<opacity>0.8</opacity>
+				<zIndex>10</zIndex>
+			</rating>
+			
 			<badges name="badges">
 				<pos>0.008 0.075</pos>
 				<size>0.15 0.15</size>
