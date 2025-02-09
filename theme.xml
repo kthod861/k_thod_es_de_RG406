@@ -216,7 +216,7 @@ license:      	creative commons CC-BY-NC-SA
 				<itemScale>1.2</itemScale>
 				<imageCornerRadius>0.01</imageCornerRadius> 
 				<scaleInwards>true</scaleInwards>
-				<unfocusedItemDimming>0.5</unfocusedItemDimming>
+				<unfocusedItemDimming>0.8</unfocusedItemDimming>
 				<unfocusedItemSaturation >1</unfocusedItemSaturation >
 				<textColor>${fgColor}</textColor>
 			</grid>
