@@ -219,6 +219,7 @@ license:      	creative commons CC-BY-NC-SA
 				<unfocusedItemDimming>0.8</unfocusedItemDimming>
 				<unfocusedItemSaturation >1</unfocusedItemSaturation >
 				<textColor>${fgColor}</textColor>
+				<defaultImage>./_inc/images/cartridge-dark.png</defaultImage>
 			</grid>
 		</view>
 	</variant>
