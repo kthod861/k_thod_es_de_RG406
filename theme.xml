@@ -138,7 +138,7 @@ license:      	creative commons CC-BY-NC-SA
 				<size>0.35 ${fontSizeBody}</size>				
 				<fontSize>0.02</fontSize>
 				<fontPath>${fontRegular}</fontPath>
-				<stationary>withinView</stationary>
+				<!--<stationary>withinView</stationary>-->
 				<opacity>1</opacity>
 				<metadata>releasedate</metadata>
 				<color>${fgColor}</color>
@@ -151,7 +151,7 @@ license:      	creative commons CC-BY-NC-SA
 				<pos>0.075 0.045</pos>
 				<size>0.02 0.02</size>
 				<origin>0 0</origin>
-				<stationary>withinView</stationary>
+				<!--<stationary>withinView</stationary>-->
 				<opacity>0.8</opacity>
 				<zIndex>10</zIndex>
 			</rating>
@@ -216,14 +216,19 @@ license:      	creative commons CC-BY-NC-SA
 				<itemScale>1.2</itemScale>
 				<imageCornerRadius>0.01</imageCornerRadius> 
 				<scaleInwards>true</scaleInwards>
-				<unfocusedItemDimming>0.8</unfocusedItemDimming>
-				<unfocusedItemSaturation >1</unfocusedItemSaturation >
+				<unfocusedItemOpacity>0.7</unfocusedItemOpacity>
+				<unfocusedItemDimming >0.8</unfocusedItemDimming >
 				<textColor>${fgColor}</textColor>
 				<defaultImage>./_inc/images/cartridge-dark.png</defaultImage>
 				<defaultFolderImage>./_inc/images/folder-dark.png</defaultFolderImage>
-				<selectorImage>./_inc/images/selector.png</selectorImage>
-				<selectorLayer>top</selectorLayer>
-				<selectorColor>ffffff59</selectorColor>
+				<!--<selectorImage>./_inc/images/selector.png</selectorImage>
+				<selectorLayer>bottom</selectorLayer>
+				<selectorColor>ffffff59</selectorColor>-->
+				<selectorImage>./_inc/images/background.png</selectorImage>
+				<selectorCornerRadius>0.01</selectorCornerRadius>
+				<selectorLayer>bottom</selectorLayer>
+				<selectorColor >ffffff1A</selectorColor>
+
 			</grid>
 		</view>
 	</variant>
