@@ -12,10 +12,8 @@ license:      	creative commons CC-BY-NC-SA
 	
 	<variables>
 		<spacerImage>./_inc/images/space.png</spacerImage>
-		<fontRegular>./_inc/fonts/Inter-Regular.otf</fontRegular>
-		<fontBold>./_inc/fonts/Inter-Bold.otf</fontBold>
-		<fontLight>./_inc/fonts/Inter-Light.otf</fontLight>
-		<fontHelper>./_inc/fonts/RobotoCondensed-Regular.ttf</fontHelper>
+		<fontRegular>./_inc/fonts/font.ttf</fontRegular>
+		<fontBold>./_inc/fonts/font-bold.ttf</fontBold>
 		<mainColor>ED5353</mainColor>
 		<onMainColor>FFEBEB</onMainColor>
 		<bgColor>000000</bgColor>
@@ -28,6 +26,7 @@ license:      	creative commons CC-BY-NC-SA
 	<variant name="gamelist-grid">
 		<variables>
 			<artworkFolder>artwork</artworkFolder>
+			<controllerFolder>controllers</controllerFolder>
 		</variables>
 	</variant>
 	
@@ -43,7 +42,7 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>0.016666667 0.96</pos>
 			<fontSize>${fontSizeBody}</fontSize>
 			<fontSizeDimmed>${fontSizeBody}</fontSizeDimmed>
-			<fontPath>${fontHelper}</fontPath>
+			<fontPath>${fontRegular}</fontPath>
 			<iconColor>000000</iconColor>
 			<textColor>000000</textColor>
 			<originDimmed>0.5 0.5</originDimmed>
@@ -114,7 +113,14 @@ license:      	creative commons CC-BY-NC-SA
 	-->
 	<variant name="gamelist-grid">
 		<view name="system">
-			<image name="cover_list">
+			<image name="background controler">
+				<origin>0.5 0</origin>
+				<pos>0.85 .3</pos>
+				<maxSize>.3 0.3</maxSize>
+				<path>./_inc/systems/${controllerFolder}/${system.theme}.png</path>
+				<zIndex>10</zIndex>
+			</image>
+			<image name="background system">
 				<origin>0 0</origin>
 				<pos>0 0</pos>
 				<size>1 1</size>
