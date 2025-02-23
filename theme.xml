@@ -144,7 +144,6 @@ license:      	creative commons CC-BY-NC-SA
 				<size>0.35 ${fontSizeBody}</size>				
 				<fontSize>0.02</fontSize>
 				<fontPath>${fontRegular}</fontPath>
-				<!--<stationary>withinView</stationary>-->
 				<opacity>1</opacity>
 				<metadata>releasedate</metadata>
 				<color>${fgColor}</color>
@@ -153,6 +152,32 @@ license:      	creative commons CC-BY-NC-SA
 				<format>%Y</format>
 				<zIndex>1</zIndex>
 			</datetime>
+			
+			<text name="md_lbl_lastplayed">
+				<origin>0 0.5</origin> 
+				<pos>0.7 0.055</pos>	
+				<size>0.35 ${fontSizeBody}</size>				
+				<fontSize>0.02</fontSize>
+				<fontPath>${fontRegular}</fontPath>
+				<opacity>1</opacity>
+				<color>${fgColor}</color>
+				<backgroundColor>000000FF</backgroundColor>
+				<text>Last played:</text>
+				<zIndex>10</zIndex>
+			</text>
+			<datetime name="md_lastplayed">
+				<origin>0 0.5</origin> 
+				<pos>0.79 0.055</pos>	
+				<size>0.35 ${fontSizeBody}</size>				
+				<fontSize>0.02</fontSize>
+				<fontPath>${fontRegular}</fontPath>
+				<opacity>1</opacity>
+				<metadata>lastplayed</metadata>
+				<color>${fgColor}</color>
+				<backgroundColor>000000FF</backgroundColor>
+				<zIndex>11</zIndex>
+			</datetime>
+			
 			<rating name="rating">
 				<pos>0.075 0.045</pos>
 				<size>0.02 0.02</size>
