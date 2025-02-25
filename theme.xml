@@ -88,27 +88,25 @@ license:      	creative commons CC-BY-NC-SA
 
 		<text name="Game_number">
 			<origin>0 0</origin>
-			<pos>0.865 0.575</pos>
+			<pos>0.822 0.575</pos>
 			<horizontalAlignment>center</horizontalAlignment>
 			<lineSpacing>1.1</lineSpacing>
 			<fontSize>0.02</fontSize> 
 			<fontPath>${fontRegular}</fontPath>
-			<systemdata>gamecountGames</systemdata>
+			<systemdata>gamecount</systemdata>
 			<letterCase>capitalize</letterCase>
 			<color>ADADAD</color>
-			<!--<stationary>withinView</stationary>-->
 		</text>
-		<text name="Favorite_number">
+		<text name="Manufacturer">
 			<origin>0 0</origin>
-			<pos>0.05 0.575</pos>
+			<pos>0.015 0.575</pos>
 			<horizontalAlignment>center</horizontalAlignment>
 			<lineSpacing>1.1</lineSpacing>
 			<fontSize>0.02</fontSize> 
 			<fontPath>${fontRegular}</fontPath>
-			<systemdata>gamecountFavorites</systemdata>
+			<text>${systemManufacturer}    ${systemReleaseDateFormated}</text>
 			<letterCase>capitalize</letterCase>
 			<color>ADADAD</color>
-			<!--<stationary>withinView</stationary>-->
 		</text>
 
 	</view>
