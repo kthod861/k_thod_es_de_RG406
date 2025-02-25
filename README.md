@@ -12,13 +12,11 @@ Should fit any 4:3 ratio / 960x720 resolution.
 Install :
 Download and extract to ES-DE theme folder
 
-Youtube preview:
-[![YT](https://github.com/kthod861/Elementerial_Mod_RG406/blob/main/_inc/YT_peview.jpg)](https://youtu.be/EPyRIAHQJFg?si=AfANOpeQnDjM9zxR "Youtube preview")
 
-Systems preview:
+Systems preview:<br />
 ![sample1](https://github.com/kthod861/Elementerial_Mod_RG406/blob/main/_inc/Systems_screen.jpg)
 
-Gamelists preview:
+Gamelists preview:<br />
 ![sample1](https://github.com/kthod861/Elementerial_Mod_RG406/blob/main/_inc/Gamelists_screen.jpg)
 
 
