@@ -14,10 +14,9 @@ Download and extract to ES-DE theme folder
 
 
 Systems preview:<br />
-![sample1](https://github.com/kthod861/Elementerial_Mod_RG406/blob/main/_inc/Systems_screen.jpg)
-
+<img src="https://github.com/kthod861/Elementerial_Mod_RG406/blob/main/_inc/Systems_screen.jpg" width="500" /><br />
 Gamelists preview:<br />
-![sample1](https://github.com/kthod861/Elementerial_Mod_RG406/blob/main/_inc/Gamelists_screen.jpg)
+<img src="https://github.com/kthod861/Elementerial_Mod_RG406/blob/main/_inc/Gamelists_screen.jpg" width="500" /><br />
 
 
 Most assets come from:
