@@ -85,24 +85,30 @@ license:      	creative commons CC-BY-NC-SA
 			<textColor>${fgColor}</textColor>
 			<zIndex>4</zIndex>
 		</carousel>
-        <text name="autoCollectionName">
-            <text>${system.fullName.autoCollections}</text>
-            <letterCase>capitalize</letterCase>
-        </text>
-        <text name="customCollectionName">
-            <text>${system.fullName.customCollections}</text>
-            <letterCase>none</letterCase>
-        </text>
-		<text name="systemInfo">
+
+		<text name="Game_number">
 			<origin>0 0</origin>
-			<pos>0.03 0.5</pos>
+			<pos>0.865 0.575</pos>
+			<horizontalAlignment>center</horizontalAlignment>
 			<lineSpacing>1.1</lineSpacing>
 			<fontSize>0.02</fontSize> 
 			<fontPath>${fontRegular}</fontPath>
-			<systemdata>gamecount</systemdata>
+			<systemdata>gamecountGames</systemdata>
 			<letterCase>capitalize</letterCase>
 			<color>ADADAD</color>
-			<stationary>withinView</stationary>
+			<!--<stationary>withinView</stationary>-->
+		</text>
+		<text name="Favorite_number">
+			<origin>0 0</origin>
+			<pos>0.05 0.575</pos>
+			<horizontalAlignment>center</horizontalAlignment>
+			<lineSpacing>1.1</lineSpacing>
+			<fontSize>0.02</fontSize> 
+			<fontPath>${fontRegular}</fontPath>
+			<systemdata>gamecountFavorites</systemdata>
+			<letterCase>capitalize</letterCase>
+			<color>ADADAD</color>
+			<!--<stationary>withinView</stationary>-->
 		</text>
 
 	</view>
@@ -115,8 +121,8 @@ license:      	creative commons CC-BY-NC-SA
 		<view name="system">
 			<image name="background controler">
 				<origin>0.5 0</origin>
-				<pos>0.85 .3</pos>
-				<maxSize>.3 0.3</maxSize>
+				<pos>0.9 .3</pos>
+				<maxSize>.28 0.28</maxSize>
 				<path>./_inc/systems/${controllerFolder}/${system.theme}.png</path>
 				<zIndex>10</zIndex>
 			</image>
