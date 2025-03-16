@@ -8,7 +8,10 @@ license:      	creative commons CC-BY-NC-SA
 <theme>
 	
 	<include>./_inc/systems/metadata-global/_default.xml</include>
+	<include>./_inc/systems/metadata-custom/_default.xml</include>
 	<include>./_inc/systems/metadata-global/${system.theme}.xml</include>
+	<include>./_inc/coversize-basic-grid-variables/${systemCoverSize}.xml</include>	
+	<include>./aspect-ratio-variables_canvas.xml</include>
 	
 	<variables>
 		<spacerImage>./_inc/images/space.png</spacerImage>
@@ -17,47 +20,30 @@ license:      	creative commons CC-BY-NC-SA
 		<mainColor>ED5353</mainColor>
 		<onMainColor>FFEBEB</onMainColor>
 		<bgColor>000000</bgColor>
+		<fgColor>dcdcdc</fgColor>
 		<sectColor>ff8c82</sectColor>
 		<fgColor>dcdcdc</fgColor>
 		<bgOpacity>0.3</bgOpacity>
+		<fontSizeH1>0.05625</fontSizeH1> 
+		<fontSizeH2>0.04375</fontSizeH2> 
+		<fontSizeH3>0.0375</fontSizeH3> 
+		<fontSizeBody>0.03</fontSizeBody> 
+		<fontSizeCaption>0.028125</fontSizeCaption> 
+		<artworkFolder>artwork</artworkFolder>
+		<controllerFolder>controllers</controllerFolder>
 	</variables>
-	
 
-	<variant name="gamelist-grid">
-		<variables>
-			<artworkFolder>artwork</artworkFolder>
-			<controllerFolder>controllers</controllerFolder>
-		</variables>
-	</variant>
 	
-	<!--
-	///
-	All Views
-	///
-	-->
+	<!--Hide help-->
 	<view name="system,gamelist">
-		<!---->
 		<helpsystem name="help">
-			<origin>0 0.5</origin>
-			<pos>0.016666667 0.96</pos>
-			<fontSize>${fontSizeBody}</fontSize>
-			<fontSizeDimmed>${fontSizeBody}</fontSizeDimmed>
-			<fontPath>${fontRegular}</fontPath>
-			<iconColor>000000</iconColor>
-			<textColor>000000</textColor>
-			<originDimmed>0.5 0.5</originDimmed>
-			<posDimmed>0.5 0.96</posDimmed>
-			<textColorDimmed>000000</textColorDimmed>
-			<iconColorDimmed>000000</iconColorDimmed>
+			<origin>0 0</origin>
+			<pos>1 1</pos>
 			<opacity>0</opacity>
 		</helpsystem>
 	</view>
 	
-	<!--
-	///
-	System View
-	///
-	-->
+	<!--System View-->
 	<view name="system">
 		<image name="Lines">
 			<pos>0 0</pos>
@@ -83,6 +69,9 @@ license:      	creative commons CC-BY-NC-SA
 			<reflections>true</reflections>
 			<reflectionsOpacity >0.3</reflectionsOpacity >
 			<textColor>${fgColor}</textColor>
+			<itemSize>0.2813 0.15</itemSize>
+			<maxItemCount>3.2</maxItemCount>
+			<horizontalOffset>0.0</horizontalOffset>
 			<zIndex>4</zIndex>
 		</carousel>
 
@@ -108,216 +97,160 @@ license:      	creative commons CC-BY-NC-SA
 			<letterCase>capitalize</letterCase>
 			<color>ADADAD</color>
 		</text>
-
+		<image name="background controler">
+			<origin>0.5 0</origin>
+			<pos>0.9 .3</pos>
+			<maxSize>.28 0.28</maxSize>
+			<path>./_inc/systems/${controllerFolder}/${system.theme}.png</path>
+			<zIndex>10</zIndex>
+		</image>
+		<image name="background system">
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<default>./_inc/systems/${artworkFolder}/_default.jpg</default>
+			<path>./_inc/systems/${artworkFolder}/${system.theme}.jpg</path>
+			<zIndex>1</zIndex>
+		</image>
 	</view>
-	<!--
-	///
-	System View: Background
-	///
-	-->
-	<variant name="gamelist-grid">
-		<view name="system">
-			<image name="background controler">
-				<origin>0.5 0</origin>
-				<pos>0.9 .3</pos>
-				<maxSize>.28 0.28</maxSize>
-				<path>./_inc/systems/${controllerFolder}/${system.theme}.png</path>
-				<zIndex>10</zIndex>
-			</image>
-			<image name="background system">
-				<origin>0 0</origin>
-				<pos>0 0</pos>
-				<size>1 1</size>
-				<default>./_inc/systems/${artworkFolder}/_default.jpg</default>
-				<path>./_inc/systems/${artworkFolder}/${system.theme}.jpg</path>
-				<zIndex>1</zIndex>
-			</image>
-		</view>
-	</variant>
-	<!--
-	///
-	Gamelist View: Grid
-	///
-	-->
-	<variant name="gamelist-grid">
-		<view name="gamelist">
+
+
+	<!--GAMELIST-->
+	<view name="gamelist">
+		<datetime name="datetime">
+			<origin>0 0.5</origin> 
+			<pos>0.033333 0.055</pos>	
+			<size>0.35 ${fontSizeBody}</size>				
+			<fontSize>0.02</fontSize>
+			<fontPath>${fontRegular}</fontPath>
+			<opacity>1</opacity>
+			<metadata>releasedate</metadata>
+			<color>${fgColor}</color>
+			<defaultValue>...</defaultValue>
+			<format>%Y</format>
+			<zIndex>15</zIndex>
+		</datetime>
 		
-			<datetime name="datetime">
-				<origin>0 0.5</origin> 
-				<pos>0.033333 0.055</pos>	
-				<size>0.35 ${fontSizeBody}</size>				
-				<fontSize>0.02</fontSize>
-				<fontPath>${fontRegular}</fontPath>
-				<opacity>1</opacity>
-				<metadata>releasedate</metadata>
-				<color>${fgColor}</color>
-				<backgroundColor>000000FF</backgroundColor>
-				<defaultValue>...</defaultValue>
-				<format>%Y</format>
-				<zIndex>1</zIndex>
-			</datetime>
-			
-			<text name="md_lbl_lastplayed">
-				<origin>0 0.5</origin> 
-				<pos>0.7 0.055</pos>	
-				<size>0.35 ${fontSizeBody}</size>				
-				<fontSize>0.02</fontSize>
-				<fontPath>${fontRegular}</fontPath>
-				<opacity>1</opacity>
-				<color>${fgColor}</color>
-				<backgroundColor>000000FF</backgroundColor>
-				<text>Last played:</text>
-				<zIndex>10</zIndex>
-			</text>
-			<datetime name="md_lastplayed">
-				<origin>0 0.5</origin> 
-				<pos>0.79 0.055</pos>	
-				<size>0.35 ${fontSizeBody}</size>				
-				<fontSize>0.02</fontSize>
-				<fontPath>${fontRegular}</fontPath>
-				<opacity>1</opacity>
-				<metadata>lastplayed</metadata>
-				<color>${fgColor}</color>
-				<backgroundColor>000000FF</backgroundColor>
-				<zIndex>11</zIndex>
-			</datetime>
-			
-			<rating name="rating">
-				<pos>0.075 0.045</pos>
-				<size>0.02 0.02</size>
-				<origin>0 0</origin>
-				<!--<stationary>withinView</stationary>-->
-				<opacity>0.8</opacity>
-				<zIndex>10</zIndex>
-			</rating>
-			
-			<badges name="badges">
-				<pos>0.008 0.075</pos>
-				<size>0.15 0.15</size>
-				<origin>0 0</origin>
-				<slots>favorite</slots>
-				<customBadgeIcon badge="favorite">./_inc/images/favorite.png</customBadgeIcon>
-				<opacity>0.8</opacity>
-			</badges>
-			
-			<image name="cover_list">
-				<origin>0 0</origin>
-				<pos>0 0</pos>
-				<cropSize>1 0.7</cropSize>
-				<zIndex>1</zIndex>
-			</image>
-
-			<image name="Lines">
-				<pos>0 -.72</pos>
-				<size>1 1</size>
-				<origin>0 0</origin>
-				<path>./_inc/images/Lines.png</path>
-				<opacity>0.8</opacity>
-				<zIndex>11</zIndex>
-				<stationary>withinView</stationary>
-			</image>
+		<text name="md_lbl_lastplayed">
+			<origin>0 0.5</origin> 
+			<pos>0.7 0.055</pos>	
+			<size>0.35 ${fontSizeBody}</size>				
+			<fontSize>0.02</fontSize>
+			<fontPath>${fontRegular}</fontPath>
+			<opacity>1</opacity>
+			<color>${fgColor}</color>
+			<text>Last played:</text>
+			<zIndex>15</zIndex>
+		</text>
+		<datetime name="md_lastplayed">
+			<origin>0 0.5</origin> 
+			<pos>0.79 0.055</pos>	
+			<size>0.35 ${fontSizeBody}</size>				
+			<fontSize>0.02</fontSize>
+			<fontPath>${fontRegular}</fontPath>
+			<opacity>1</opacity>
+			<metadata>lastplayed</metadata>
+			<color>${fgColor}</color>
+			<zIndex>15</zIndex>
+		</datetime>
+		
+		<rating name="rating">
+			<pos>0.075 0.045</pos>
+			<size>0.02 0.02</size>
+			<origin>0 0</origin>
+			<!--<stationary>withinView</stationary>-->
+			<opacity>0.8</opacity>
+			<zIndex>15</zIndex>
+		</rating>
+		
+		<badges name="badges">
+			<pos>0.008 0.075</pos>
+			<size>0.13 0.13</size>
+			<origin>0 0</origin>
+			<slots>favorite</slots>
+			<customBadgeIcon badge="favorite">./_inc/images/favorite.png</customBadgeIcon>
+			<opacity>0.8</opacity>
+		</badges>
 
 
-			<image name="logo">
-				<pos>0.5 0.02</pos>
-				<origin>0.5 0</origin>
-				<size>0.25 0</size>
-				<maxSize >0.25 1</maxSize >
-				<path>./_inc/systems/logos_R/${system.theme}.png</path>
-				<interpolation>nearest</interpolation>
-				<opacity>1</opacity>
-				<zIndex>10</zIndex>
-			</image>
-			
-			<text name="md_name">
-				<origin>0 0.5</origin> 
-				<pos>0.033333 0.095</pos>	
-				<size>0.35 ${fontSizeBody}</size>				
-				<fontSize>${fontSizeBody}</fontSize>
-				<fontPath>${fontRegular}</fontPath>
-				<metadata>name</metadata>
-				<color>${fgColor}</color>
-				<container>true</container>
-				<containerType>horizontal</containerType>
-				<containerStartDelay>0.0</containerStartDelay>
-				<containerResetDelay>0.0</containerResetDelay>
-				<containerScrollGap>0.5</containerScrollGap>
-				<zIndex>5</zIndex>
-			</text>
-			<grid name="game-grid">
-				<origin>0.5 0</origin> 
-				<pos>0.5 0.2</pos>	
-				<size>0.933333 0.725</size>
-				<itemScale>1.2</itemScale>
-				<imageCornerRadius>0.01</imageCornerRadius> 
-				<scaleInwards>true</scaleInwards>
-				<unfocusedItemOpacity>0.7</unfocusedItemOpacity>
-				<unfocusedItemDimming >0.8</unfocusedItemDimming >
-				<textColor>${fgColor}</textColor>
-				<defaultImage>./_inc/images/cartridge-dark.png</defaultImage>
-				<defaultFolderImage>./_inc/images/folder-dark.png</defaultFolderImage>
-				<!--<selectorImage>./_inc/images/selector.png</selectorImage>
-				<selectorLayer>bottom</selectorLayer>
-				<selectorColor>ffffff59</selectorColor>-->
-				<selectorImage>./_inc/images/background.png</selectorImage>
-				<selectorCornerRadius>0.01</selectorCornerRadius>
-				<selectorLayer>bottom</selectorLayer>
-				<selectorColor >ffffff1A</selectorColor>
+		<image name="Lines">
+			<pos>0 -.72</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<path>./_inc/images/Lines.png</path>
+			<opacity>1</opacity>
+			<zIndex>15</zIndex>
+			<stationary>withinView</stationary>
+		</image>
 
-			</grid>
-		</view>
-	</variant>
-	<!--
-	///
-	Gamelist View: CoverGrid
-	///
-	-->
-	<variant name="gamelist-grid">
-		<include>./_inc/systems/coversizeGrid/${systemCoverSize}.xml</include>
-		<view name="gamelist">
-			<grid name="game-grid">
-				<imageType>cover</imageType>
-			</grid>
-		</view>
-	</variant>
-	<!--
-	///
-	Gamelist View: Background
-	///
-	-->
-	<variant name="gamelist-grid">
-		<view name="gamelist">
-			<image name="cover_list">
-				<default>./_inc/systems/${artworkFolder}/_default.jpg</default>
-				<path>./_inc/systems/${artworkFolder}/${system.theme}.jpg</path>
-				<size>1.5 1.5</size>
-				<pos>-0.25 0</pos>
-				<opacity>0.3</opacity>
-			</image>
-		</view>
-	</variant>
-	<!--
-	///
-	Font Size
-	///
-	-->
-	<fontSize name="small">
-		<variables>
-			<fontSizeH1>0.05625</fontSizeH1> 
-			<fontSizeH2>0.04375</fontSizeH2> 
-			<fontSizeH3>0.0375</fontSizeH3> 
-			<fontSizeBody>0.03</fontSizeBody> 
-			<fontSizeCaption>0.028125</fontSizeCaption> 
-		</variables>
-	</fontSize>
 
-	<!--
-	///
-	Aspect Ratios
-	///
-	-->
-	<aspectRatio name="4:3">
-		<include>./aspect-ratio-4-3.xml</include>
-	</aspectRatio>
+		<image name="logo">
+			<pos>0.5 0.02</pos>
+			<origin>0.5 0</origin>
+			<size>0.25 0</size>
+			<maxSize >0.25 1</maxSize >
+			<path>./_inc/systems/logos_R/${system.theme}.png</path>
+			<interpolation>nearest</interpolation>
+			<opacity>1</opacity>
+			<zIndex>12</zIndex>
+		</image>
+		
+		<text name="md_name">
+			<origin>0 0.5</origin> 
+			<pos>0.033333 0.095</pos>	
+			<size>0.35 ${fontSizeBody}</size>				
+			<fontSize>${fontSizeBody}</fontSize>
+			<fontPath>${fontRegular}</fontPath>
+			<metadata>name</metadata>
+			<color>${fgColor}</color>
+			<container>true</container>
+			<containerType>horizontal</containerType>
+			<containerStartDelay>0.0</containerStartDelay>
+			<containerResetDelay>0.0</containerResetDelay>
+			<containerScrollGap>0.5</containerScrollGap>
+			<zIndex>15</zIndex>
+		</text>
+
+
+		<grid name="grid">
+			<origin>0.5 1</origin>
+			<pos>0.515 1</pos>
+			<size>1 0.867</size>
+			<fractionalRows>true</fractionalRows>
+			<itemSize>${grid-base-item-w} ${grid-base-item-h}</itemSize>
+			<itemScale>1.05</itemScale>
+			<selectorRelativeScale>0.935</selectorRelativeScale>
+			<itemSpacing>${grid-item-spacing} -1</itemSpacing>
+			<selectorImage>./_inc/coversize-selector/${systemCoverSize}.svg</selectorImage>
+			<backgroundImage>./_inc/coversize-shadow/${systemCoverSize}.webp</backgroundImage>
+			<imageType>cover</imageType>
+			<unfocusedItemOpacity>0.7</unfocusedItemOpacity>
+			<unfocusedItemDimming>0.85</unfocusedItemDimming>
+			<unfocusedItemSaturation>1</unfocusedItemSaturation>
+			<textColor>ADADAD</textColor>
+			<fontPath>${fontRegular}</fontPath>
+			<fontSize>0.036111111111111</fontSize>
+			<selectorColor>FFFFFF80</selectorColor>
+			<selectorLayer>top</selectorLayer>
+			<scaleInwards>false</scaleInwards>
+			<imageRelativeScale>0.97</imageRelativeScale>
+			<backgroundRelativeScale>0.995</backgroundRelativeScale>
+			<textRelativeScale>0.9</textRelativeScale>
+			<selectorRelativeScale>0.975</selectorRelativeScale>
+			<selectorCornerRadius>0.003</selectorCornerRadius>
+			<imageCornerRadius>0.004</imageCornerRadius>
+			<backgroundCornerRadius>0</backgroundCornerRadius>
+			<zIndex>13</zIndex>
+		</grid>
+		
+		<image name="background">
+			<default>./_inc/systems/${artworkFolder}/_default.jpg</default>
+			<path>./_inc/systems/${artworkFolder}/${system.theme}.jpg</path>
+			<size>1.5 1.5</size>
+			<pos>-0.25 0</pos>
+			<opacity>0.3</opacity>
+			<zIndex>5</zIndex>
+		</image>
+	</view>
 	
 </theme>

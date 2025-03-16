@@ -1,18 +1,15 @@
 <themeCapabilities>
    
 	<themeName>k_thod_es_de_RG406</themeName>
-	<!--
-	///
-	Aspect Ratios
-	///
-	-->
+	<!--Aspect Ratios-->
 	<aspectRatio>4:3</aspectRatio>
-	<!--
-	///
-	Font Size
-	///
-	-->
+	<aspectRatio>1:1</aspectRatio>
+	<aspectRatio>16:9</aspectRatio>
+	
 	<fontSize>small</fontSize>
+	<fontSize>medium</fontSize>
+	<fontSize>large</fontSize>
+	<fontSize>x-large</fontSize>
 	<!--
 	///
 	Transitions
