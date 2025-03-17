@@ -60,7 +60,7 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>0.5 0.51</pos>
 			<size>1 0.55</size>
 			<itemScale>1.80</itemScale>
-			<staticImage>./_inc/systems/logos/${system.theme}.png</staticImage>
+			<staticImage>./_inc/systems/logos/${system.theme}.webp</staticImage>
 			<type>horizontal</type>
 			<color>${bgColor}00</color>
 			<selectedItemMargins>0.1 0.1</selectedItemMargins>
@@ -77,7 +77,7 @@ license:      	creative commons CC-BY-NC-SA
 
 		<text name="Game_number">
 			<origin>0 0</origin>
-			<pos>0.822 0.575</pos>
+			<pos>0.8 0.575</pos>
 			<horizontalAlignment>center</horizontalAlignment>
 			<lineSpacing>1.1</lineSpacing>
 			<fontSize>0.02</fontSize> 
@@ -98,9 +98,9 @@ license:      	creative commons CC-BY-NC-SA
 			<color>ADADAD</color>
 		</text>
 		<image name="background controler">
-			<origin>0.5 0</origin>
-			<pos>0.9 .3</pos>
-			<maxSize>.28 0.28</maxSize>
+			<origin>0.5 1</origin>
+			<pos>0.87 .57</pos>
+			<maxSize>.25 0.28</maxSize>
 			<path>./_inc/systems/${controllerFolder}/${system.theme}.png</path>
 			<zIndex>10</zIndex>
 		</image>
@@ -185,11 +185,10 @@ license:      	creative commons CC-BY-NC-SA
 
 
 		<image name="logo">
-			<pos>0.5 0.02</pos>
-			<origin>0.5 0</origin>
-			<size>0.25 0</size>
-			<maxSize >0.25 1</maxSize >
-			<path>./_inc/systems/logos_R/${system.theme}.png</path>
+			<pos>0.5 0.07</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.38 0.12</maxSize>
+			<path>./_inc/systems/logos/${system.theme}.webp</path>
 			<interpolation>nearest</interpolation>
 			<opacity>1</opacity>
 			<zIndex>12</zIndex>
