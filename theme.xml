@@ -41,6 +41,20 @@ license:      	creative commons CC-BY-NC-SA
 			<pos>1 1</pos>
 			<opacity>0</opacity>
 		</helpsystem>
+		<systemstatus name="systemstatus">
+			<origin>0 0</origin>
+			<pos>0.05 0.005</pos>
+			<fontPath>${fontRegular}</fontPath>
+			<height>0.02</height> 
+			<color>ADADAD</color>
+		</systemstatus>
+		<clock name="clock">
+			<origin>0 0</origin>
+			<pos>0.005 0.005</pos>
+			<fontPath>${fontRegular}</fontPath>
+			<fontSize>0.02</fontSize> 
+			<color>ADADAD</color>
+		</clock>
 	</view>
 	
 	<!--System View-->
